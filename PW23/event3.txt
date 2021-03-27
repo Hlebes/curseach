@@ -1,0 +1,5 @@
+BEGIN
+ INSERT INTO
+  myeventtable (eventTime, eventName) 
+  VALUES (CURRENT_TIMESTAMP(), 'event3');
+ END

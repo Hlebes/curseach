@@ -1,0 +1,1 @@
+SELECT REPLACE(bookTitle, '  ', ' ') as Название, ROUND(price, -1) AS Цена FROM books;
